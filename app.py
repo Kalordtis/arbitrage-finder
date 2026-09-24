@@ -4,7 +4,7 @@ import requests
 import datetime
 
 app = Flask(__name__)
-API_KEY = '4c6383d41abcacea2bdd69a931b7a72f' 
+API_KEY = 'YOUR_API_KEY' 
 
 # FILTER THRESHOLDS
 MIN_PROFIT_PCT = 0.5   # Ignore margins smaller than 0.5% (often wiped out by rounding/fees)
